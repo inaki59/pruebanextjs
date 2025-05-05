@@ -1,0 +1,30 @@
+[
+  {
+    "email": "usuario1@example.com",
+    "password": "123456",
+    "chats": [
+      {
+        "id": "chat1",
+        "title": "Consulta sobre React",
+        "messages": [
+          { "role": "user", "content": "¿Qué es un hook en React?" },
+          { "role": "bot", "content": "Un hook es una función que permite usar estado y otras características de React sin clases." }
+        ]
+      }
+    ]
+  },
+  {
+    "email": "usuario2@example.com",
+    "password": "abcdef",
+    "chats": [
+      {
+        "id": "chat2",
+        "title": "Charla sobre JavaScript",
+        "messages": [
+          { "role": "user", "content": "¿Qué es una closure?" },
+          { "role": "bot", "content": "Una closure es una función que recuerda el ámbito en el que fue creada, incluso después de que ese ámbito haya terminado." }
+        ]
+      }
+    ]
+  }
+]

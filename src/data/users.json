@@ -1,0 +1,33 @@
+[
+    {
+      "id": "1",
+      "email": "usuario1@mail.com",
+      "password": "1234",
+      "chats": [
+        {
+          "id": "chat-1",
+          "title": "Primera conversación",
+          "messages": [
+            { "role": "user", "content": "Hola" },
+            { "role": "bot", "content": "¡Hola! ¿En qué puedo ayudarte?" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "email": "usuario2@mail.com",
+      "password": "5678",
+      "chats": [
+        {
+          "id": "chat-1",
+          "title": "Primera conversación",
+          "messages": [
+            { "role": "user", "content": "Hola" },
+            { "role": "bot", "content": "¡Hola! ¿En qué puedo ayudarte en el día de hoy?" }
+          ]
+        }
+      ]
+    }
+  ]
+  
