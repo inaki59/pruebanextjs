@@ -13,8 +13,9 @@ export default function ChatsLayout({ children }:Props) {
   </aside>
 
   {/* Área de contenido principal, solo para rutas dentro de /chats */}
+  {/* Aquí se renderizará app/chats/page.js o app/chats/[id]/page.js */}
   <main className="flex-1 overflow-y-auto p-6 h-full">
-    {children} {/* Aquí se renderizará app/chats/page.js o app/chats/[id]/page.js */}
+    {children} 
   </main>
 </div>
 

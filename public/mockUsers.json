@@ -1,5 +1,6 @@
 [
   {
+    "id":2,
     "email": "usuario1@example.com",
     "password": "123456",
     "chats": [
@@ -10,10 +11,28 @@
           { "role": "user", "content": "¿Qué es un hook en React?" },
           { "role": "bot", "content": "Un hook es una función que permite usar estado y otras características de React sin clases." }
         ]
+      },
+      {
+        "id": "chat21",
+        "title": "Consulta sobre Frontend",
+        "messages": [
+          { "role": "user", "content": "¿Qué es el DOM en desarrollo frontend?" },
+          { "role": "bot", "content": "El DOM (Document Object Model) es una interfaz de programación para documentos HTML, XML y SVG. Permite que los programas y scripts accedan y actualicen dinámicamente el contenido, la estructura y el estilo de un documento." }
+        ]
+      },
+
+      {
+        "id": "chat13",
+        "title": "que es flexbox",
+        "messages": [
+          { "role": "user", "content": "¿Qué es el DOM en desarrollo frontend?" },
+          { "role": "bot", "content": "Flexbox, en CSS, es un sistema para organizar elementos dentro de un contenedor de manera flexible y eficiente. Permite distribuir el espacio disponible entre los elementos, alinearlos y adaptar el diseño a diferentes tamaños de pantalla" }
+        ]
       }
     ]
   },
   {
+    "id":19,
     "email": "usuario2@example.com",
     "password": "abcdef",
     "chats": [
